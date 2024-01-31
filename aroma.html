@@ -41,11 +41,11 @@
                         </div>
                     </div>
                 </div>
-                <p class="text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</p>
+                <p class="text">It’s a great experience. The ambiance is very welcoming and charming. Amazing wines, food and service. Staff are extremely knowledgeable and make great recommendations.</p>
             </div>
         </div>
 
-        <div class="slide-container">
+        <div class="slide-container active">
             <div class="slide">
                 <i class="fas fa-quote-right icon"></i>
                 <div class="user">
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                 </div>
-                <p class="text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</p>
+                <p class="text">“Very good service, good menu … not overly extensive. Food was very good quality all around. They know how to prepare home fries and their omelets are top-notch. Prices were reasonable.”</p>
             </div>
         </div>
 
@@ -80,7 +80,9 @@
                         </div>
                     </div>
                 </div>
-                <p class="text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</p>
+                <p class="text">Nice ambiance, caring service, big surprize every time food came to the table - it just looked so awesome and tasted even better!
+
+                </p>
             </div>
         </div>
 
@@ -88,7 +90,7 @@
             <div class="slide">
                 <i class="fas fa-quote-right icon"></i>
                 <div class="user">
-                    <img src="img/pic5.jpg" alt="">
+                    <img src="img\pic5.jpg" alt="">
                     <div class="user-info">
                         <h3>Anisa</h3>
                         <div class="stars">
@@ -100,11 +102,29 @@
                         </div>
                     </div>
                 </div>
-                <p class="text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</p>
+                <p class="text">Go here all the time, excellent food and service... A bit high on price though compared to other Indian restaurants in NJ area. Liked: Food, Service, Atmosphere, Value</p>
             </div>
         </div>
         
-
+        <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+        <div id="prev" class="fas fa-chevron-left"onclick="prev()"></div>
 
     </div>
+    
+    
+    <script>
+        let slides=document.querySelectorAll('.slide-container');
+        let index=0;
+
+        function next(){
+            slides[index].classList.remove('active');
+            index=(index + 1) % slides.length;
+            slides[index].classList.add('active');
+        }
+        function prev(){
+            slides[index].classList.remove('active');
+            index=(index - 1 + slides.length) % slides.length;
+            slides[index].classList.add('active');
+        }
+    </script>
 </body>
