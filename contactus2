@@ -1,0 +1,103 @@
+<!-- contact us start -->
+<style>
+  .card1{
+    background: url(assets/img/contactus/contact12.jpeg);
+    background-size:cover;
+    background-position:bottom;
+  }
+  .cont{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height:fit-content;
+  }
+  .border-right-after:after{
+    border-right:0;
+  }
+</style>
+<section class="cont" style="background-color: black; ">
+<div  class="card card-body shadow-xl mx-3 mx-md-4 mt-n0 mb-4" style="background-color: black;"  >
+  <div class="container py-2 pb-2 md-10" >
+    <div class="row mt-sm-0 mt-n4 md-5" style="background-color: #1e150a; border-radius: 30px;">
+      <div class="col-lg-3 col-md-4 position-relative ms-lg-auto">
+        <div class="p-3 text-center border-right-after">
+          <i class="material-icons text-gradient text-info text-5xl mb-3" style="color: #008bf8;">email</i>
+          <h6 class="mb-0" style="color: yellow;">Email</h6>
+          <p class=" font-weight-normal" style="color:#008bf8 !important;">Aroma@gmail.com</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 position-relative">
+        <div class="p-3 text-center border-right-after">
+          <i class="material-icons text-gradient text-info text-5xl mb-3" style="color: #008bf8;">call</i>
+          <h6 class="mb-0" style="color: yellow;">Phone</h6>
+          <p class=" font-weight-normal" style="color:#008bf8 !important;">+91 9160000759</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 me-lg-auto">
+        <div class="p-3 text-center">
+          <i class="material-icons text-gradient text-info text-5xl mb-3" style="color: #008bf8;">contacts</i>
+          <h6 class="mb-0" style="color: yellow;">Contact</h6>
+          <span class=" font-weight-normal" style="color:#008bf8 !important;">Jyothi Prasad</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<div class="card1 card-body shadow-xl mx-3 mx-md-4 mt-n3 mb-4" style="border-radius: 30px; margin-top: 50px;" >
+  <div class="container py-4 pb-5 md-5">
+    <div class="row">
+      <div class="col-lg-7 mx-auto d-flex justify-content-center flex-column">
+        <h3 class="text-center" style="font-size: 70px; font-family:Verdana, Geneva, Tahoma, sans-serif; color: #008bf8;  margin-top:70px;" >Contact us</h3>
+        <p style="color:yellow !important;font-weight: bold; text-align: center;"> Enjoy nicely cooked mushrooms, seafood and roti this restaurant offers. The cozy atmosphere of Aroma Multi-Cuisine Restaurant 
+          allows visitors to relax after a hard working day. Most guests find that the staff is courteous at this place. Enjoyable 
+          service is something clients like here. Based on the guests' feedback on Google, this place deserved 4.1</p>
+        <div role="form" id="contact form" method="post" autocomplete="off">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group input-group-dynamic mb-4">
+                  <label class="form-label" id="FirstName" style="font-weight: bold; color: #008bf8; font-family: 'Times New Roman', Times, serif;">First Name</label> 
+                  <input class="form-control " aria-label="First Name..." type="text" style="color: white;">
+                </div>
+              </div>
+              <div class="col-md-6 ps-2 mb-4"> 
+                <div class="input-group input-group-dynamic">
+                  <label class="form-label" id="LastName" style="font-weight: bold; color: #008bf8; font-family: 'Times New Roman', Times, serif;">Last Name</label>
+                  <input class="form-control " aria-label="Last Name..." type="text" style="color: white;" >
+                </div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <div class="input-group input-group-dynamic">
+                <label class="form-label" id="EMail" style="font-weight: bold ; color: #008bf8; font-family: 'Times New Roman', Times, serif;">Email Address</label>
+                <input class="form-control " class type="email" style="color: white;">
+              </div>
+            </div>
+            <div class="mb-4">
+              <div class="input-group input-group-dynamic">
+                <label class="form-label" id="PhoneNumber" style="font-weight: bold; color: #008bf8; font-family: 'Times New Roman', Times, serif;">Phone Number</label> 
+                <input class="form-control " aria-label="Phone Number..." type="text" style="color: white;">
+              </div>
+            </div>
+            <div class="input-group mb-4 input-group-static">
+              <label style="font-weight: bold; color: #008bf8;">What can we Help You?</label>
+              <textarea  name="message" class="form-control" id="message" aria-label="Message..." rows="4" style="color: white;"></textarea>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn bg-gradient-dark w-100" style="color:yellow" >Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.3768233140854!2d79.06130107405451!3d13.201642509795104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad5d08a91d11b5%3A0x55f2b4db4c4ef5ca!2sAroma%20Multi-Cuisine%20Restaurant!5e0!3m2!1sen!2sin!4v1708491472667!5m2!1sen!2sin" 
+  width="100%" height="450" style="border:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+    <!-- contact us End-->
